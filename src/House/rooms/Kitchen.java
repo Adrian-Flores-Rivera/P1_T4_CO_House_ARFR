@@ -1,3 +1,5 @@
+package House.rooms;
+
 public class Kitchen {
     private boolean stove;
     private boolean sink;

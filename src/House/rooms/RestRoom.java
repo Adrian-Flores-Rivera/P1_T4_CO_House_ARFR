@@ -1,3 +1,5 @@
+package House.rooms;
+
 public class RestRoom {
     private boolean showerCabin;
     private int width;

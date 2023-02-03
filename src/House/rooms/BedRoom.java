@@ -1,15 +1,28 @@
-public class Yard {
-    private boolean grass;
+package House.rooms;
+
+import House.rooms.furniture.BedSize;
+
+public class BedRoom {
+    private BedSize bedSize;
+    private boolean tv;
     private int width;
     private int height;
     private String color;
 
-    public boolean isGrass() {
-        return grass;
+    public BedSize getBedSize() {
+        return bedSize;
     }
 
-    public void setGrass(boolean grass) {
-        this.grass = grass;
+    public void setBedSize(BedSize bedSize) {
+        this.bedSize = bedSize;
+    }
+
+    public boolean isTv() {
+        return tv;
+    }
+
+    public void setTv(boolean tv) {
+        this.tv = tv;
     }
 
     public int getWidth() {

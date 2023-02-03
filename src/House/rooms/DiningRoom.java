@@ -1,3 +1,5 @@
+package House.rooms;
+
 public class DiningRoom {
     private int windows;
     private boolean tv;
